@@ -17,19 +17,11 @@
 		  new CleanWebpackPlugin(['dist']),
 	  ]
 
-### 精简输出(依赖第三方的工具执行未引用的代码的dead-code删除工作)
-安装：npm install --save-dev uglifyjs-webpack-plugin<br>
-配置：webpack.config.js
-	  const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-
-	  plugins: [
-		  new UglifyJSPlugin()
-	  ]
 
 
 # 使用说明<br>
  ### 下载项目<br>
- git clone https://github.com/LinkChenzy/music-player-by-react.git
+ git clone https://github.com/lovisnd/react-music-player
 
  ### 安装依赖<br>
  npm install

@@ -1,4 +1,4 @@
-# music-player-by-react
+# react-music-player
 
 ### package.json----npm 脚本<br>
    > "build": "webpack",   //npm run build 项目构建<br>
@@ -7,15 +7,6 @@
    > "server": "node server.js" //npm run server 打开浏览器，跳转到 http://localhost:3000，你应该看到你的webpack 应用程序已经运行<br>
 
 
-
-### 清理 /dist 文件夹
-安装:npm install clean-webpack-plugin --save-dev<br>
-配置：webpack.config.js
-	  const CleanWebpackPlugin = require('clean-webpack-plugin');
-	  
-	  plugins: [
-		  new CleanWebpackPlugin(['dist']),
-	  ]
 
 
 

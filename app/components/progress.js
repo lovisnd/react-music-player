@@ -3,7 +3,7 @@ import './progress.less'
 class Progress extends  React.Component {
     static get defaultProps(){
         return {
-            barcolor: '#2f9842'
+            barcolor: '#2f9843'
         }
     };
     changeProgress(e){
